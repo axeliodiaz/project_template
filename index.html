@@ -24,6 +24,7 @@
     <link href="https://axeldiazgroup.github.io/material.github.io/material/css/animate.css" rel="stylesheet">
     <!-- This is a Custom CSS -->
     <link href="https://axeldiazgroup.github.io/material.github.io/material/css/style.css" rel="stylesheet">
+    <link href="https://axeldiazgroup.github.io/material.github.io/plugins/bower_components/calendar/dist/fullcalendar.css" rel="stylesheet" />
     <!-- color CSS you can use different color css from css/colors folder -->
     <!-- We have chosen the skin-blue (blue.css) for this starter
          page. However, you can choose any other skin from folder css / colors .
@@ -213,6 +214,19 @@
                                         </div>
                                     </div>
                                 </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning"><i class="fa fa-pencil"></i>  </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Task edit</h4>
+                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> 7 hours ago via Twitter</small> </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p><img class="img-responsive" alt="user" src="../plugins/images/big/img1.jpg"></p>
+                                            <p>Título de la tarea.</p>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li>
                                     <div class="timeline-badge danger"><i class="fa fa-times"></i> </div>
                                     <div class="timeline-panel">
@@ -225,7 +239,28 @@
                                         </div>
                                     </div>
                                 </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning"><i class="fa fa-pencil"></i>  </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Task edit</h4>
+                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> 7 hours ago via Twitter</small> </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p><img class="img-responsive" alt="user" src="../plugins/images/big/img1.jpg"></p>
+                                            <p>Título de la tarea.</p>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="white-box">
+                            <div id="calendar" class="fc fc-unthemed fc-ltr">
+                                <div class="fc-toolbar fc-header-toolbar">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -249,6 +284,11 @@
     <script src="https://axeldiazgroup.github.io/material.github.io/material/js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->
     <script src="https://axeldiazgroup.github.io/material.github.io/material/js/waves.js"></script>
+    <!-- Calendar JavaScript -->
+    <script src="https://axeldiazgroup.github.io/material.github.io/plugins/bower_components/calendar/jquery-ui.min.js"></script>
+    <script src="https://axeldiazgroup.github.io/material.github.io/plugins/bower_components/moment/moment.js"></script>
+    <script src='https://axeldiazgroup.github.io/material.github.io/plugins/bower_components/calendar/dist/fullcalendar.min.js'></script>
+    <script src="https://axeldiazgroup.github.io/material.github.io/plugins/bower_components/calendar/dist/cal-init.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="https://axeldiazgroup.github.io/material.github.io/material/js/custom.min.js"></script>
 </body>
